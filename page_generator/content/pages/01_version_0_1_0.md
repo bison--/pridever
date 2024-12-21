@@ -1,3 +1,8 @@
+Title: Pride Versioning 🏳️‍🌈 0.1.0
+Date: 2024-12-21 23:42
+Category: Version
+Cover: images/pridever.png
+
 # Pride Versioning - pridever 🏳️‍🌈
 
 Idea by [Niki Tonsky](https://mastodon.online/@nikitonsky/113691789641950263).  
@@ -16,12 +21,10 @@ Breakdown:
 * **Shame version** / third Segment
   * Bump when fixing things too embarrassing to admit.
 
-## run
+## Current version
 
-Originally created with this README.md file it is now made with (Pelican)[https://getpelican.com/].  
+**0.1.0**
 
-```bash
-python -m venv venv
-pip install -r requirements.txt
-pelican -r -l
-```
+## git
+
+coming soonTM
