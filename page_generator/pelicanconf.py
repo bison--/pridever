@@ -20,9 +20,7 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (
     ("Original idea by Niki Tonsky", "https://mastodon.online/@nikitonsky/113691789641950263"),
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
+    ("on GitHub", "https://github.com/bison--/pridever"),
 )
 
 # Social widget
