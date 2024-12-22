@@ -1,7 +1,6 @@
 Title: Pride Versioning 🏳️‍🌈 0.1.0
 Date: 2024-12-21 23:42
 Category: Version
-Cover: images/pridever.png
 
 # Pride Versioning - pridever 🏳️‍🌈
 
