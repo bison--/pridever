@@ -1,3 +1,5 @@
+from logging import DEBUG
+
 AUTHOR = 'bison'
 SITENAME = 'Pride Versioning'
 SITEURL = ""
@@ -33,4 +35,4 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
-#THEME_TEMPLATES_OVERRIDES = ['templates']
+THEME_TEMPLATES_OVERRIDES = ['templates']
