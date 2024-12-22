@@ -2,6 +2,7 @@
 
 Idea by [Niki Tonsky](https://mastodon.online/@nikitonsky/113691789641950263).  
 A new versioning scheme that is based on the pride of the author.  
+https://pridever.org/  
 
 ## How it works
 
@@ -18,7 +19,7 @@ Breakdown:
 
 ## run
 
-Originally created with this README.md file it is now made with (Pelican)[https://getpelican.com/].  
+Originally created with this README.md file it is now made with [Pelican](https://getpelican.com/).  
 
 ### Development
 
