@@ -35,4 +35,5 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+THEME = '../venvs/venv_3_10/Lib/site-packages/pelican/themes/notmyidea'
 THEME_TEMPLATES_OVERRIDES = ['templates']
