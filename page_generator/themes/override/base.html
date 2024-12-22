@@ -1,0 +1,36 @@
+{# !DOESNT WORK! #}
+
+{% extends "!notmyidea/base.html" %}
+{% block opengraph %}
+  {{ super() }}
+  {# source: https://lizdenys.com/journal/articles/adding-open-graph-to-pelican.html #}
+
+  {% if article is defined %}
+    <!-- article -->
+    <link rel="canonical" href="https://{{ SITEURL }}/{{ article.url }}">
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ SITEURL }}/{{ article.url }}" />
+    <meta property="og:title" content="{{ article.title | striptags }}" />
+    <meta property="og:image" content="{{ SITEURL }}/images/{% if article.opengraph_image is defined %}{{ article.opengraph_image }}{% else %}opengraph-default.png{% endif %}" />
+  {% elif page is defined %}
+    <!-- page -->
+    <link rel="canonical" href="https://{{ SITEURL }}/{{ page.url }}">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ SITEURL }}/{{ page.url }}" />
+    <meta property="og:title" content="{{ SITENAME }} - {{ page.title  | striptags }}" />
+    {% if page.description %}
+      <meta property="description" content="{{page.description | striptags}}" />
+    {% else %}
+      <meta property="og:description" content="Forget semantic versioning, use PRIDE VERSIONING 🏳️‍🌈" />
+    {% endif %}
+    <meta property="og:image" content="{{ SITEURL }}/images/{% if page.opengraph_image is defined %}{{ page.opengraph_image }}{% else %}opengraph-default.png{% endif %}" />
+  {% else %}
+    <!-- else -->
+    <link rel="canonical" href="https://{{ SITEURL }}/{{ output_file }}">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ SITEURL }}/{{ output_file }}" />
+    <meta property="og:title" content="{{ SITENAME }}" />
+    <meta property="og:description" content="Forget semantic versioning, use PRIDE VERSIONING 🏳️‍🌈" />
+    <meta property="og:image" content="{{ SITEURL }}/images/opengraph-default.png" />
+  {% endif %}
+{% endblock %}

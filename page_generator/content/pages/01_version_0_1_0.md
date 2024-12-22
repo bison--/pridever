@@ -1,3 +1,7 @@
+Title: Pride Versioning 🏳️‍🌈 0.1.0
+Date: 2024-12-21 23:42
+Category: Version
+
 # Pride Versioning - pridever 🏳️‍🌈
 
 Idea by [Niki Tonsky](https://mastodon.online/@nikitonsky/113691789641950263).  
@@ -16,28 +20,10 @@ Breakdown:
 * **Shame version** / third Segment
   * Bump when fixing things too embarrassing to admit.
 
-## run
+## Current version
 
-Originally created with this README.md file it is now made with (Pelican)[https://getpelican.com/].  
+**0.1.0**
 
-### Development
+## git
 
-Install the dependencies and start the local dev-server.  
-
-```bash
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-cd page_generator
-pelican -r -l
-```
-
-To see the current config: `pelican --print-settings`
-
-### Deployment
-
-```bash
-source venv/bin/activate
-cd page_generator
-pelican content -s publishconf.py
-```
+coming soonTM
