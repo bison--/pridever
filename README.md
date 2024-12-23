@@ -42,3 +42,7 @@ source venv/bin/activate
 cd page_generator
 pelican content -s publishconf.py
 ```
+
+## License
+
+Note that the theme `notmyidea` is under the AGPLv3 license.
