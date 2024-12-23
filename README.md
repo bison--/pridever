@@ -24,6 +24,9 @@ Originally created with this README.md file it is now made with [Pelican](https:
 ### Development
 
 Install the dependencies and start the local dev-server.  
+To see the current config: `pelican --print-settings`  
+
+### Linux / Unix-Like
 
 ```bash
 python -m venv venv
@@ -33,12 +36,19 @@ cd page_generator
 pelican -r -l
 ```
 
-To see the current config: `pelican --print-settings`
+### Windows Powershell
+
+```sh
+python3 -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+cd page_generator
+pelican -r -l
+```
 
 ### Deployment
 
 ```bash
-source venv/bin/activate
 cd page_generator
 pelican content -s publishconf.py
 ```
