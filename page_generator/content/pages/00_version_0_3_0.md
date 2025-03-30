@@ -1,11 +1,12 @@
-Title: Pride Versioning 🏳️‍🌈 0.2.0
-Date: 2024-12-21 23:42
+Title: Pride Versioning 🏳️‍🌈 0.3.0
+Date: 2025-03-30 01:42
 Category: Version
 opengraph_image: pridever.png
 URL:
 save_as: index.html
 
 ## Summary
+
 Given a version number **PROUD.DEFAULT.SHAME**, increment the:
 
 1. PROUD version when you make changes you are really proud of  
@@ -32,4 +33,9 @@ Breakdown:
 * **Shame version** / third Segment
     * Bump when fixing things too embarrassing to admit.
 
+### Increasing the Proud Version
 
+When increasing the **Proud Version** you can start with a blank slate.  
+For example:  
+
+Increasing the **Proud Version** on **1.2.3** by **1** would yield **2.0.0**, so you can fully show the proudness of your new version.
